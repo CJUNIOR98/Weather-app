@@ -26,8 +26,6 @@ const UseApi = () => {
 
     return {weather, isLoading};
 };
-import { useState, UseEffect } from 'react';
-import axios from 'axios';
 
 export default UseApi;
 
