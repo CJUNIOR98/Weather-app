@@ -13,7 +13,7 @@ const UseApi = () => {
         }
         const succes = position => {
             const lat = position.coords.latitude
-            const lon = position.coords.longuitude
+            const lon = position.coords.longitude
             axios.get(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=f88b48477acd7643e2ac2e52fbeb7c38`)
                 .then(res => setWeather(res.data));
         }
