@@ -30,8 +30,6 @@ npm run dev
 ## Built with 
 
 - [React](https://reactjs.org/)
-- [Tailwind](https://tailwindcss.com/)
-- [React Div 100vh (To fix the 100vh mobile Screen Bug)](https://github.com/mvasin/react-div-100vh)
 - [Vite](https://vitejs.dev/)
 
 ## License
